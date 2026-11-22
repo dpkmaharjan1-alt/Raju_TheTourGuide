@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --brand-green: #14532d;
+    --brand-green-dark: #10261a;
+    --brand-orange: #f97316;
+    --surface-light: #f4f7f5;
+    --ink-primary: #1f2937;
+  }
+
+  html {
+    font-family: "DM Sans", "Noto Sans Devanagari", system-ui, -apple-system, sans-serif;
+    scroll-behavior: smooth;
+  }
+
+  h1,
+  h2,
+  h3,
+  .font-display {
+    font-family: "Plus Jakarta Sans", "Noto Sans Devanagari", system-ui, -apple-system, sans-serif;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}

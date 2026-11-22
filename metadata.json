@@ -1,0 +1,8 @@
+{
+  "name": "Nepal Adventure Guide",
+  "description": "नेपालका ट्रेकिङ्ग, पर्वतीय भ्रमण तथा सांस्कृतिक यात्रा — Private, group and customised trekking and cultural tours across Nepal.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
